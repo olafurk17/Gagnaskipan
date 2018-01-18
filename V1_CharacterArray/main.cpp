@@ -127,9 +127,20 @@ void clearArray(CharacterArray &ca) {
 
 int main() {
 
-    CharacterArray ca1;
+    CharacterArray cal;
 
-    printArray(ca1);
+    append(cal, 'k');
+    append(cal, 'e');
+    append(cal, 'k');
+    append(cal, 'l');
+    append(cal, 'o');
+    append(cal, 'l');
+    append(cal, 'r');
+    append(cal, 'o');
+    append(cal, 'f');
+    append(cal, 'l');
+
+    /*printArray(ca1);
 
     append(ca1, 'k');
     insertIntoArray(ca1, 'a', 0);
@@ -147,6 +158,7 @@ int main() {
     CharacterArray ca2((char*)"parameter constructor", 21);
     printArray(ca2);
     substring(ca2, 4, 11);
+    */
 
     return 0;
 }

@@ -2,6 +2,7 @@
 #define INSERTSORTEDARRAY_H
 
 #include <ostream>
+#include <iostream>
 
 using namespace std;
 
@@ -38,6 +39,9 @@ class CharacterArray
     protected:
 
     private:
+        char * arr;
+        int stringlength;
+        int arrsize;
 };
 
 #endif // INSERTSORTEDARRAY_H
